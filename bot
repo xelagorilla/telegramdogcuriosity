@@ -7,7 +7,7 @@ except ImportError:
     import requests
     
 def get_random_curiosity():
-    url = "https://raw.githubusercontent.com/TUO_NOME_UTENTE/URL_DEL_DOCUMENTO_DI_TESTO.txt"
+    url = "https://github.com/xelagorilla/telegramdogcuriosity/blob/c77955b19fb1e30dedb5cd485f1d519c5fe5a095/lista"
     response = requests.get(url)
     curiosities = response.text.splitlines()
     random_curiosity = random.choice(curiosities)
